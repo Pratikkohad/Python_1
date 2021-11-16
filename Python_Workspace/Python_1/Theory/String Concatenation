@@ -1,0 +1,9 @@
+1. To Append two String
+    String + String (Only string valid)
+
+ 2. Space can Concatenation using (+)
+
+ Example":-
+     a= "pratik"
+     b="Kohad"
+     print(a+" "+b)

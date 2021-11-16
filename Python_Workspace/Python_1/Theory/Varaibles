@@ -1,0 +1,19 @@
+ 1. Variable name cannot start from number
+        ie 1A ---- invalid
+           A1 ----- Valid
+          Special Char can not be use expect underscore(_)
+ 2. There should not a space in between variable
+         Data is ------> Invalid
+         Datais-----> Valid
+         Data_Is ----> Valid
+
+ 3. In variable memory allocation is depends on value not on variables
+         if a=10 and b=10 then memory location is same
+         print(id(a),id(b)) ------> 2516332315152 2516332315152(Memory Location of a and b)
+
+ 4. In single cote '' act as string
+          i.e  'a'---> string
+
+
+
+
