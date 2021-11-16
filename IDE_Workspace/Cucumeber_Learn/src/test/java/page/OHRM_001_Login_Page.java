@@ -32,12 +32,16 @@ public class OHRM_001_Login_Page {
         PageFactory.initElements(driver, this);
     }
 
-    public String enter_username(String Username) {
+    public String enter_username(String Username) 
+    {
         Txt_username.sendKeys(Username);
+        
         String usNAme = Txt_username.getAttribute("value");
-        if (usNAme.isEmpty()) {
+        if (usNAme.isEmpty())
+        {
             System.out.println("Username Filed is Empty :- " + usNAme);
-        } else {
+        } else
+        {
             System.out.println("Username is :- " + usNAme);
         }
         return Username;

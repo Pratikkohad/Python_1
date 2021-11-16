@@ -15,16 +15,16 @@ public class OHRM_001_Login
 	protected WebDriver driver;
 	OHRM_001_Login_Page lp = new OHRM_001_Login_Page(driver);
 	private static Logger Log = Logger.getLogger(Logger.class.getName());
-	@Before
-	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
-
-		ChromeOptions options = new ChromeOptions();
-		//options.addArguments("--headless");
-		driver = new ChromeDriver(options);
-		driver.manage().window().maximize();
-
-	}
+//	@Before
+//	public void setup() {
+//		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+//
+//		ChromeOptions options = new ChromeOptions();
+//		//options.addArguments("--headless");
+//		driver = new ChromeDriver(options);
+//		driver.manage().window().maximize();
+//
+//	}
 	@Given("User is on Login Page")
 	public void user_is_on_login_page()
 	{
